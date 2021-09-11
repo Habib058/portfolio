@@ -12,11 +12,11 @@ const MenuButton = ({ toggle, isOpen }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='/'>Home</SidebarLink>
-                    <SidebarLink to='about'>About</SidebarLink>
-                    <SidebarLink to='skills'>Skills</SidebarLink>
-                    <SidebarLink to='projects'>Projects</SidebarLink>
-                    <SidebarLink to='contact'>Contact</SidebarLink>
+                    <SidebarLink onClick={toggle} to='/'>Home</SidebarLink>
+                    <SidebarLink onClick={toggle} to='about'>About</SidebarLink>
+                    <SidebarLink onClick={toggle} to='skills'>Skills</SidebarLink>
+                    <SidebarLink onClick={toggle} to='projects'>Projects</SidebarLink>
+                    <SidebarLink onClick={toggle} to='contact'>Contact</SidebarLink>
                 </SidebarMenu>
                 
             </SidebarWrapper>

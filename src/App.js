@@ -13,6 +13,7 @@ import Skill from './components/Skill/Skill';
 import { useState } from 'react';
 import MenuButton from './components/Navbar/MenuButton/MenuButton';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -28,9 +29,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/about"><About /></Route>
         <Route path="/skills"><Skill /></Route>
         <Route path="/projects"><Projects/></Route>
+        <Route path ="/contact"><Contact/></Route>
+        <Route path="/about"><About/></Route>
       </Switch>
     </Router>
   );

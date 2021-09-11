@@ -7,7 +7,7 @@ const Skills = () => {
     const slice = skillData.slice(0 ,6)
     return (
         <div className="container">
-            <h1 style={{ fontWeight:'600' }} className='text-center mb-5'>--- My Skills ---</h1>
+            <h1 style={{ fontWeight:'600' }} className='text-center mb-5'> My Skills</h1>
             <div className="row">
                 {
                     slice.map(skillsData => <SkillsDetail skillsData={skillsData}></SkillsDetail>)

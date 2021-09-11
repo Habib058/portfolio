@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import facebook from '../../assets/images/facebook.png'
 import lninkedIn from '../../assets/images/linkedin.png'
 import git from '../../assets/images/git.jpg'
+import gmail from '../../assets/images/gmail.png'
+import whatsApp from '../../assets/images/WhatsApp.svg.webp'
 import './Footer.css'
 
 const Footer = () => {
@@ -30,9 +32,14 @@ const Footer = () => {
                 </FooterLInkItems>
                 <FooterLInkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
-                    <FooterLink href="https://www.facebook.com/Habib058/" target="_blank"><img className="logo" src={facebook} alt="" /></FooterLink>
-                    <FooterLink href="https://www.linkedin.com/in/habib-shakil-a8a703203/" target="_blank"><img className="logo" src={lninkedIn} alt="" /></FooterLink>
-                    <FooterLink href="https://github.com/Habib058" target="_blank"><img className="logo" src={git} alt="" /></FooterLink>
+                    <FooterIcons>
+                        <FooterLink href="https://www.facebook.com/Habib058/" target="_blank"><img className="logo" src={facebook} alt="" /></FooterLink>
+                        <FooterLink href="https://www.linkedin.com/in/habib-shakil-a8a703203/" target="_blank"><img className="logo" src={lninkedIn} alt="" /></FooterLink>
+                        <FooterLink href="https://github.com/Habib058" target="_blank"><img className="logo" src={git} alt="" /></FooterLink>
+                    </FooterIcons>
+                    {/* <FooterLink href="https://github.com/Habib058" target="_blank"><img className="logo" src={gmail} alt="" /></FooterLink> */}
+                    <p style={{fontSize:"20px"}}><img className="logo" src={gmail} alt="" /> : habibshakil216@gmail.com</p>
+                    <p style={{fontSize:"20px"}}><img className="logo" src={whatsApp} alt="" /> : 01743189159</p>
                 </FooterLInkItems>
             </FooterLinksWrapper>
         </FooterContainer>
@@ -78,6 +85,11 @@ padding: 1rem 2rem;
 }
 
 `
+const FooterIcons = styled.div`
+display: flex;
+flex-direction: row;
+`
+
 const FooterLinkTitle = styled.h2`
 font-size: 20px;
 margin-bottom: 16px;
@@ -85,6 +97,7 @@ margin-bottom: 16px;
 const FooterLink = styled.a`
 text-decoration: none;
 margin-bottom: 0.5rem;
+margin-right: 0.5rem;
 font-size: 20px;
 color: white;
 
