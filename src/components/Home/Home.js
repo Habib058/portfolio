@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MenuButton from '../Navbar/MenuButton/MenuButton';
 import Navbar from '../Navbar/Navbar';
@@ -14,6 +15,7 @@ const Home = () => {
            <Info/>
            <Skills/>
            <Project/>
+           <Footer/>
         </div>
     );
 };

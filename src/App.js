@@ -12,6 +12,7 @@ import Home from './components/Home/Home';
 import Skill from './components/Skill/Skill';
 import { useState } from 'react';
 import MenuButton from './components/Navbar/MenuButton/MenuButton';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         </Route>
         <Route path="/about"><About /></Route>
         <Route path="/skills"><Skill /></Route>
+        <Route path="/projects"><Projects/></Route>
       </Switch>
     </Router>
   );

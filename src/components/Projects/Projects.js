@@ -1,12 +1,10 @@
 import React from 'react';
-import amazon from '../../../assets/images/amazon.png'
-import travel from '../../../assets/images/travio.png'
-import food from '../../../assets/images/food_to_fly.png'
-import image from '../../../assets/images/image_gallery.png'
-import './Project.css'
-import { Link } from 'react-router-dom';
+import amazon from '../../assets/images/amazon.png'
+import travel from '../../assets/images/travio.png'
+import food from '../../assets/images/food_to_fly.png'
+import image from '../../assets/images/image_gallery.png'
 
-const Project = () => {
+const Projects = () => {
     return (
         <div className="container">
             <h1 className="text-center mt-5 pt-5 mb-3">Projects</h1>
@@ -135,12 +133,56 @@ const Project = () => {
                         </div>
                     </a>
                 </div>
+
+                <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
+                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://image-gallery-58.web.app/" target="_blank">
+                        <div className="card">
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={image} alt="" />
+                            <h4>Image Gallery</h4>
+                            <p>This a single page application.Responsive for desktop and mobile screen.User can add their preferable products.
+                                There is a graph of images uploaded per day for last one week.
+                            </p>
+                            <div className="row">
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>React JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Node JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Express JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>MongoDB</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Firebase</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Heroku</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div className='d-flex justify-content-center pt-3 pb-5'>
-                <Link to="/projects"><button className="btn btn-primary d-block ">See More Projects</button></Link>
-            </div>
+            {/* <div className='d-flex justify-content-center pt-3'>
+                <Link to="/skills"><button className="btn btn-primary d-block ">See More Projects</button></Link>
+            </div> */}
         </div>
     );
 };
 
-export default Project;
+export default Projects;
