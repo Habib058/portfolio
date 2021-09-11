@@ -25,7 +25,7 @@ const Header = () => {
                             wrapper="p"
                         />
                 </HeaderMainP>
-                <a href=""><button className='btn btn-dark button'>Download CV</button></a>
+                <a href=""><button className='btn btn-light button'>Download CV</button></a>
             </TravelMainItems>
 
         </HeaderMainContent>

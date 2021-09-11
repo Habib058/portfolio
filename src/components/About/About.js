@@ -11,7 +11,7 @@ const About = () => {
         <div>
             <Navbar toggle={toggle}/>
            <MenuButton isOpen={isOpen} toggle={toggle}/>
-            Hello
+            
         </div>
     );
 };

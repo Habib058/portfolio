@@ -3,42 +3,44 @@ import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
     return (
-        <Nav>
-        <NavLink className="logo" to='/'><h3 className='px-5'>HABIB</h3></NavLink>
-        <MobileIcon onClick={toggle}>
-        <Bars/>
-        </MobileIcon>
-        <NavMenu>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/destination'>Skills</NavLink>
-            <NavLink to='/tours'>Projects</NavLink>
-            <NavLink to='/tours'>Contacts</NavLink>
-            
-        </NavMenu>
-        {/* <NavBtn className='px-5'>{
-                <NavLink> Contact</NavLink>
-            }</NavBtn> */}
         
-    </Nav>
+            <Nav>
+                <NavLink className="logo" to='/'><h3 className='px-5'>HABIB</h3></NavLink>
+                <MobileIcon onClick={toggle}>
+                    <Bars />
+                </MobileIcon>
+                <NavMenu>
+                    <NavLink to='/about'>About</NavLink>
+                    <NavLink to='/skills'>Skills</NavLink>
+                    <NavLink to='/tours'>Projects</NavLink>
+                    <NavLink to='/tours'>Contacts</NavLink>
+                </NavMenu>
+
+            </Nav>
+        
     );
 };
 
 export default Navbar;
 
+
+
 const Nav = styled.nav`
 background: transparent;
-/* background-color: #0b1d36; */
+background-color: #0b1d36;
 height: 80px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 padding: 0.5rem;
 z-index: 100;
-position: relative;
+position: fixed;
+top: 0;
+width: 100%;
 `
 
-const NavLink= styled(Link)`
+const NavLink = styled(Link)`
 color: white;
 display: flex;
 align-items: center;

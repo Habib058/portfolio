@@ -1,0 +1,24 @@
+.container{
+    margin-top:50px;
+}
+.card{
+    padding: 15px;
+    margin: 10px;
+    height: 520px;
+    border-radius:10px;
+    box-shadow: 1px 1px 20px rgb(85, 85, 85);
+    background: #ffffff;
+}
+.small-card{
+    border: 2px solid rgb(184, 0, 0);
+    box-shadow: 3px 3px 5px lightgray;
+    text-align: center;
+    height:30px;
+    padding-top:2px;
+    margin: 5px;
+}
+
+h4{
+    font-weight: 600;
+    color:rgb(0, 55, 131)
+}

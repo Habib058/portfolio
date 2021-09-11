@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import Header from '../Header/Header';
 import MenuButton from '../Navbar/MenuButton/MenuButton';
 import Navbar from '../Navbar/Navbar';
+import Info from './Info';
+import Project from './Project/Project';
+import Skills from './Skills/Skills';
 
 const Home = () => {
 
-    const [isOpen,setIsOpen] = useState(false);
-    const toggle = ()=>{
-        setIsOpen(!isOpen)
-    }
     return (
-        <div>
-           <Navbar toggle={toggle}/>
+        <div>    
            <Header/> 
-           <MenuButton isOpen={isOpen} toggle={toggle}/>
+           <Info/>
+           <Skills/>
+           <Project/>
         </div>
     );
 };
