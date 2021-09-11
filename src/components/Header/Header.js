@@ -8,15 +8,15 @@ import './Header.css'
 const Header = () => {
     return (
         <HeaderMainContainer>
-        <HeaderMainBg>
-            <VideoBg src={vid} type='video/mp4' autoPlay loop muted playsInline></VideoBg>
-        </HeaderMainBg>
-        <HeaderMainContent>
-            <TravelMainItems>
-                <HeaderMainH3>Hello,  I am </HeaderMainH3>
-                <HeaderMainH1>Habibur Rahman</HeaderMainH1>
-                <HeaderMainP>
-                <Typical
+            <HeaderMainBg>
+                <VideoBg src={vid} type='video/mp4' autoPlay loop muted playsInline></VideoBg>
+            </HeaderMainBg>
+            <HeaderMainContent>
+                <TravelMainItems>
+                    <HeaderMainH3>Hello,  I am </HeaderMainH3>
+                    <HeaderMainH1>Habibur Rahman</HeaderMainH1>
+                    <HeaderMainP>
+                        <Typical
                             steps={['A Full Stack Developer', 1000,
                                 'A Creative Web Designer', 1000,
                                 'A Quick Learner', 1000,
@@ -24,12 +24,13 @@ const Header = () => {
                             loop={Infinity}
                             wrapper="p"
                         />
-                </HeaderMainP>
-                <a href=""><button className='btn btn-light button'>Download CV</button></a>
-            </TravelMainItems>
+                    </HeaderMainP>
+                    <a href="https://drive.google.com/file/d/1Py_j1XjCh0wrxvGF_2SBCUv6pCcO-n5_/view" target="_blank"
+                    ><button className='btn btn-light button'>Download CV</button></a>
+                </TravelMainItems>
 
-        </HeaderMainContent>
-    </HeaderMainContainer>
+            </HeaderMainContent>
+        </HeaderMainContainer>
     );
 };
 
