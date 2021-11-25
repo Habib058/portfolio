@@ -1,7 +1,7 @@
 import React from 'react';
 import amazon from '../../../assets/images/amazon.png'
 import travel from '../../../assets/images/travio.png'
-import next from '../../../assets/images/Screenshot_1.png'
+import hifz from '../../../assets/images/hifz.png'
 import './Project.css'
 import { Link } from 'react-router-dom';
 
@@ -94,7 +94,7 @@ const Project = () => {
                 <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                     <a style={{ textDecoration: 'none', color: 'black' }} href="https://easy-hifz.vercel.app/" target="_blank">
                         <div className="card">
-                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={next} alt="" />
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={hifz} alt="" />
                             <h4>Easy Hifz</h4>
                             <p>This a single page application.Responsive for desktop and mobile screen.User can read and listen the holy Quran according to their need by filter.
                                 user can also select an individual Quri to listen and memorize.

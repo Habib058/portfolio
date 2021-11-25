@@ -3,7 +3,7 @@ import amazon from '../../assets/images/amazon.png'
 import travel from '../../assets/images/travio.png'
 import food from '../../assets/images/food_to_fly.png'
 import image from '../../assets/images/image_gallery.png'
-import next from '../../assets/images/Screenshot_1.png'
+import next from '../../assets/images/hifz.png'
 
 const Projects = () => {
     return (
