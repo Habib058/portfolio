@@ -4,6 +4,7 @@ import travel from '../../assets/images/travio.png'
 import food from '../../assets/images/food_to_fly.png'
 import image from '../../assets/images/image_gallery.png'
 import next from '../../assets/images/hifz.png'
+import ecom from '../../assets/images/e-commerce.png'
 
 const Projects = () => {
     return (
@@ -211,6 +212,44 @@ const Projects = () => {
                                 <div className="col-md-4 col-sm-4 col-4">
                                     <div className="small-card">
                                         <p>Heroku</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
+                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://image-gallery-58.web.app/" target="_blank">
+                        <div className="card">
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={ecom} alt="" />
+                            <h4>E-Commerce</h4>
+                            <p>This a single page application.Responsive for desktop and mobile screen. User can select a product and that product will be sent to the cart item and the total subtotal will be shown on the cart item.
+                            </p>
+                            <div className="row">
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>React JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Redux</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Bootstrap</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>HTML</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>CSS</p>
                                     </div>
                                 </div>
                             </div>
