@@ -3,6 +3,7 @@ import amazon from '../../assets/images/amazon.png'
 import travel from '../../assets/images/travio.png'
 import food from '../../assets/images/food_to_fly.png'
 import image from '../../assets/images/image_gallery.png'
+import next from '../../assets/images/Screenshot_1.png'
 
 const Projects = () => {
     return (
@@ -85,6 +86,45 @@ const Projects = () => {
                                         <p>Heroku</p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
+                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://easy-hifz.vercel.app/" target="_blank">
+                        <div className="card">
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={next} alt="" />
+                            <h4>Easy Hifz</h4>
+                            <p>This a single page application.Responsive for desktop and mobile screen.User can read and listen the holy Quran according to their need by filter.
+                                user can also select an individual Quri to listen and memorize.
+                            </p>
+                            <div className="row">
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Next JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Material UI</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Vercel</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>HTML</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>CSS</p>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </a>
@@ -177,6 +217,8 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
+
+                
             </div>
             {/* <div className='d-flex justify-content-center pt-3'>
                 <Link to="/skills"><button className="btn btn-primary d-block ">See More Projects</button></Link>
