@@ -220,7 +220,7 @@ const Projects = () => {
                 </div>
 
                 <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
-                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://image-gallery-58.web.app/" target="_blank">
+                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://tender-engelbart-151d13.netlify.app/" target="_blank">
                         <div className="card">
                             <img className=" img-fluid" style={{ marginBottom: '15px' }} src={ecom} alt="" />
                             <h4>E-Commerce</h4>
@@ -259,9 +259,6 @@ const Projects = () => {
 
                 
             </div>
-            {/* <div className='d-flex justify-content-center pt-3'>
-                <Link to="/skills"><button className="btn btn-primary d-block ">See More Projects</button></Link>
-            </div> */}
         </div>
     );
 };
