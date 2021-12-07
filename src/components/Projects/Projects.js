@@ -132,6 +132,56 @@ const Projects = () => {
                 </div>
 
                 <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
+                    <a style={{ textDecoration: 'none', color: 'black' }} href="https://whatsapp-mern-058.web.app/" target="_blank">
+                        <div className="card">
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={next} alt="" />
+                            <h4>Whatsapp MERN</h4>
+                            <p>This a single page application.Responsive for desktop and mobile screen.User can read and listen the holy Quran according to their need by filter.
+                                user can also select an individual Quri to listen and memorize.
+                            </p>
+                            <div className="row">
+                                <div className="col-md-4 col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>React JS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Material UI</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>HTML</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>CSS</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Pusher</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Firebase</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4  col-sm-4 col-4">
+                                    <div className="small-card">
+                                        <p>Heroku</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                     <a style={{ textDecoration: 'none', color: 'black' }} href=" https://food-to-fly-347a7.web.app/" target="_blank">
                         <div className="card">
                             <img className=" img-fluid" style={{ marginBottom: '15px' }} src={food} alt="" />
