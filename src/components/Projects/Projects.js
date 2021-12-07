@@ -5,6 +5,7 @@ import food from '../../assets/images/food_to_fly.png'
 import image from '../../assets/images/image_gallery.png'
 import next from '../../assets/images/hifz.png'
 import ecom from '../../assets/images/e-commerce.png'
+import whatsapp from '../../assets/images/whatsapp.png'
 
 const Projects = () => {
     return (
@@ -134,7 +135,7 @@ const Projects = () => {
                 <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                     <a style={{ textDecoration: 'none', color: 'black' }} href="https://whatsapp-mern-058.web.app/" target="_blank">
                         <div className="card">
-                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={next} alt="" />
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={whatsapp} alt="" />
                             <h4>Whatsapp MERN</h4>
                             <p>This a single page application.Responsive for desktop and mobile screen.User can read and listen the holy Quran according to their need by filter.
                                 user can also select an individual Quri to listen and memorize.
