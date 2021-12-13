@@ -6,6 +6,7 @@ import image from '../../assets/images/image_gallery.png'
 import next from '../../assets/images/hifz.png'
 import ecom from '../../assets/images/e-commerce.png'
 import whatsapp from '../../assets/images/whatsapp.png'
+import contact from '../../assets/images/redux.png'
 
 const Projects = () => {
     return (
@@ -315,7 +316,7 @@ const Projects = () => {
                 <div className="col-md-12 col-sm-6 col-12 col-lg-4 ">
                     <a style={{ textDecoration: 'none', color: 'black' }} href="https://compassionate-feynman-25d110.netlify.app/" target="_blank">
                         <div className="card">
-                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={ecom} alt="" />
+                            <img className=" img-fluid" style={{ marginBottom: '15px' }} src={contact} alt="" />
                             <h4>Redux Contact-App</h4>
                             <p>This a single page application.Responsive for desktop and mobile screen. User can create contact, Update Contact and Delete a Contact.All the CRUD Operation were done using redux.
                             </p>
